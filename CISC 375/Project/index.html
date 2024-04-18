@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <style>
+            *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        /* Navbar */
+        .navbar{
+            display:flex;
+            justify-content: center;
+            height:50px;
+            align-items:center;
+            background-color: black;
+            position:sticky;
+        }
+        .navbar::before{
+            content: "";
+            position:absolute;
+            background-color: rgba(0, 0, 0, 0.5);
+            height:100%;
+            width:100%;
+            z-index:-1;
+        }
+        .navbar ul{
+            display:flex;
+            list-style:none;
+            margin: 50px;
+
+        }
+        .navbar ul li{
+            font-family:'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 2rem;
+        }
+        .navbar ul li a{
+            text-decoration:none;
+            color:white;
+            padding: 5px 20px;
+
+        }
+        .navbar ul li a:hover{
+            border-bottom: 2px solid yellow;
+        
+        }
+        #home{
+            display: flex;
+            flex-direction: column;
+            height:650px;
+            justify-content:center;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        #home::before{
+            content: "";
+            position:absolute;
+            top:0;
+            left:0;
+            background: url('Headshot.JPG') no-repeat center center/cover;
+            height:100%;
+            width:100%;
+            z-index: -1;
+            opacity: 0.8;
+        }
+        #Heading1{
+            color: black;
+            font-size: 3rem;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            transform: scale(1,1.3);
+            margin:55px;
+        }
+        #About{
+            display: flex;
+            flex-direction: column;
+            height: 600px;
+            margin: 55px;
+            font-size: 2rem;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .picture{
+            width: 400px;
+            height:400px;
+            padding:0px 30px;
+        }
+    </style>
+
+    <nave class = "navbar">
+        <ul>
+            <li><a href="file:///Users/stephenrobert/Library/CloudStorage/OneDrive-UniversityofSt.Thomas/CISC%20375/Project/Personal%20Homepage.html"target="_self"> Home</a></li>
+            <li><a href="file:///Users/stephenrobert/Library/CloudStorage/OneDrive-UniversityofSt.Thomas/CISC%20375/Project/Resume.html" target="_self"> Resume</a></li>
+            <li><a href="file:///Users/stephenrobert/Library/CloudStorage/OneDrive-UniversityofSt.Thomas/CISC%20375/Project/research%20projects.html"target="_self"> Projects</a></li>
+            <li><a href="file:///Users/stephenrobert/Library/CloudStorage/OneDrive-UniversityofSt.Thomas/CISC%20375/Project/Fun%20Facts.html"> Fun Facts</a></li>
+        </ul>
+    </nave>
+    <img class= "picture" src="Headshot.JPG" width="300" height="400"/>
+        </style>
+        <section id="Home">
+            <h id="Heading1"><i> Hello there, and welcome to my corner of the web!</h></i>
+
+                <p id="About"><i>I'm Stephen Robert, a passionate in data science and applied statistics hailing from university of St.Thomas <a href="https://www.stthomas.edu/" target="_blank"> University of St.Thomas</a>. 
+                    I am senior majoring in computer science and minoring in applied statistics. I am an International student coming from India. 
+                I'm thrilled to have you here, allowing me the opportunity to share a glimpse of my journey, interests, and insights.
+                Professionally, I would like specialize in Data science using my knowledge in computer science. My love for this field sparked during a project that I did in my introduction to statitics class, propelling me to delve deep into the intricacies of data analysis. Over the years, I've had the privilege to work on a couple of projects related to applied statistics and data analysis, each enriching my understanding and sharpening my skills.
+                But there's more to me than just my professional endeavors. Outside the realm of work, I'm an avid swimmer, batminton player, traveler. Whether it's swimming, batminton, or travelling, these passions bring balance to my life and inspire creativity in everything I do.
+                This website serves as a platform to share my experiences, insights, and thoughts on my portfolio. I believe in the power of collaboration and growth through shared knowledge. Together, we can engage in meaningful discussions, learn from each other, and make a positive impact on the world.
+                Thank you for stopping by, and I invite you to explore my website, get to know me better, and perhaps even start a conversation. Let's embark on this journey of exploration and discovery together.
+            </p></i>
+
+        </section>
+    </body>
+</html>

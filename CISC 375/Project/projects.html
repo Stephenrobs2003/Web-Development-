@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <style>
+            #heading1{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 3rem;
+            }
+            p{
+                color:aqua;
+                background-color:black;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 4rem;
+
+            }
+            body{
+                display:flex;
+                flex-direction: column;
+                background-color: beige;
+                margin: 60px;
+                margin-top: auto;
+                margin-bottom: auto;
+                font-size: 2rem;
+            }
+
+            #title1{
+                font-size: 2rem;
+                text-align: center;
+                margin: 10px 0px;
+            }
+            #title2{
+                font-size: 2rem;
+                text-align: center;
+                margin: 10px 0px;
+
+            }
+            #title3{
+                font-size: 2rem;
+                text-align: center;
+                margin: 10px 0px;
+
+            }
+            .column{
+                display: grid;
+                grid-template-columns: auto auto;
+                padding-left: 50px;
+
+            }
+            .box{
+                height:200px;
+                width:500px;
+            }
+             /* Navbar */
+        .navbar{
+            display:flex;
+            justify-content: center;
+            height:50px;
+            align-items:center;
+            background-color: black;
+            position:sticky;
+        }
+        .navbar::before{
+            content: "";
+            position:absolute;
+            background-color: rgba(0, 0, 0, 0.5);
+            height:100%;
+            width:100%;
+            z-index:-1;
+        }
+        .navbar ul{
+            display:flex;
+            list-style:none;
+            margin: 50px;
+
+        }
+        .navbar ul li{
+            font-family:'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 2rem;
+        }
+        .navbar ul li a{
+            text-decoration:none;
+            color:white;
+            padding: 5px 20px;
+        }
+        .navbar ul li a:hover{
+            border-bottom: 2px solid yellow;
+        
+        }
+
+        </style>
+        <nave class = "navbar">
+            <ul>
+                <li><a href=""target="_self"> Home</a></li>
+                <li><a href="file:///Users/stephenrobert/Library/CloudStorage/OneDrive-UniversityofSt.Thomas/CISC%20375/Project/Resume.html" target="_self"> Resume</a></li>
+                <li><a href="file:///Users/stephenrobert/Library/CloudStorage/OneDrive-UniversityofSt.Thomas/CISC%20375/Project/research%20projects.html"target="_self"> Projects</a></li>
+                <li><a href="file:///Users/stephenrobert/Library/CloudStorage/OneDrive-UniversityofSt.Thomas/CISC%20375/Project/Fun%20Facts.html"> Fun Facts</a></li>
+            </ul>
+        </nave>
+        <h1 id="heading1"> Projects</h1>
+
+        <p>
+            <ul>
+                <h3 id="title1"><i>What some of the explanatory variables that lead to heart disease in patients in the future</i></h3>
+                <li>The goal for this project was to use the data we found on the CDC website in 2021 Annual
+                    Survey to predict what were some of the explanatory variables that lead to heart disease in
+                    patients in the future. To find out the variables we will create a multi-logical model. We will
+                    also try to use the forward selection, backward elimination, and best subset to find the predictor
+                    variables for the heart disease (response variable). The final model will be constructed using
+                    the variables: Age, Stroke, BMI, Heart_Attack, HRT_Disease, Gen_Health and Sex. Since
+                    this was a random survey, the results can be used to infer to a larger population, probably to
+                    population of the world.</li>
+                
+    
+                <h3 id="title2"><i>GDP and Life Influences Drive the Life Expectancy and Development of a Country.</i></h3>
+                <li>
+                    The ability of a government to know what factors impact the life expectancy and development of
+                    their country is valuable and can impact the overall well-being of people in a country. Our goal
+                    was to be as accurate as possible as well as have statistically significant data so we could form a
+                    conclusion. We hypothesized that schooling and adult mortality will be the biggest drivers of life
+                    expectancy and the development of a country
+                    <img class="Project Picture" src="008A77A0-253B-4952-AA25-6C392B8E6E9E.jpeg" height="600"/>
+                </li>
+                <h3 id="title3"><i>Model the linear relationship between weight and height, equivalent test number of meals per day, and number of hours of exercise per week.</h3></i>
+                <li>Many research has shown that the height of an individual determines the weight factor of the individual. 
+                    I wanted to figure out the correlation between the components for the undergraduate students at the University of St. Thomas (population) that are studying the statistic 220 courses (sample size).
+                    The main goal is to find out which of the explanatory variables is a stronger predator to the response variable. Ho: The model is ineffective. Ha: The model is effective. 
+                    <img class = "Picture" src="Linear Graph.JPEG" height="600"/>
+                </li>
+            </ul>
+
+        </p>
+
+    </body>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <nave class = "navbar">
+            <ul>
+                <li><a href="file:///Users/stephenrobert/Library/CloudStorage/OneDrive-UniversityofSt.Thomas/CISC%20375/Project/Personal%20Homepage.html"target="_self"> Home</a></li>
+                <li><a href="file:///Users/stephenrobert/Library/CloudStorage/OneDrive-UniversityofSt.Thomas/CISC%20375/project/Resume.html" target="_self"> Resume</a></li>
+                <li><a href="file:///Users/stephenrobert/Library/CloudStorage/OneDrive-UniversityofSt.Thomas/CISC%20375/Project/research%20projects.html"target="_self"> Projects</a></li>
+                <li><a href="file:///Users/stephenrobert/Library/CloudStorage/OneDrive-UniversityofSt.Thomas/CISC%20375/Project/Fun%20Facts.html"> Fun Facts</a></li>
+            </ul>
+        </nave>
+        <style>
+            body{
+                background-color: darkgoldenrod;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 2rem;
+            }
+            /* Navbar */
+        .navbar{
+            display:flex;
+            justify-content: center;
+            height:50px;
+            align-items:center;
+            background-color: black;
+            position:sticky;
+        }
+        .navbar::before{
+            content: "";
+            position:absolute;
+            background-color: rgba(0, 0, 0, 0.5);
+            height:100%;
+            width:100%;
+            z-index:-1;
+        }
+        .navbar ul{
+            display:flex;
+            list-style:none;
+            margin: 50px;
+
+        }
+        .navbar ul li{
+            font-family:'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 2rem;
+        }
+        .navbar ul li a{
+            text-decoration:none;
+            color:white;
+            padding: 5px 20px;
+        }
+        .navbar ul li a:hover{
+            border-bottom: 2px solid yellow;
+        
+        }
+
+        </style>
+        <h1 id="heading1"> Fun Facts</h1>
+        <ul>
+            <li> Can speak 3 languages: English, French, and Malayalam</li>
+            <li> Love to travel to Netherlands for holidays</li>
+            <li>Enjoy learning new skills, such as new language</li>
+            <li> Love swimming during my free time </li>
+            <li> Dog and cat lover. Have 2 cats and a dog. </li>
+            <li> Loving spending time with family and friends</li>
+            <li> Enjoy having some social gathering</li>
+            <li> Have visit almost all the states in India</li>
+            
+        </ul>
+        <img class= "picture" src="Screenshot 2023-09-28 at 13.21.09.png" width="350" height="400"/>
+        <img class="Image" src="Screenshot 2023-09-28 at 13.25.41.png" width="350" height="400"/>
+    </body>
