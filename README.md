@@ -1,0 +1,1 @@
+Creating a personal website using CSS and Html. For the creating the website, we used foundation environment. Upon completing the website the goal is make the website be posted to the public website on social media for view.
